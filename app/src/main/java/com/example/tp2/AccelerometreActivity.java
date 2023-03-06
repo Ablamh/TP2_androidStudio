@@ -14,10 +14,10 @@ import android.widget.RelativeLayout;
 
 
 public class AccelerometreActivity extends AppCompatActivity implements  SensorEventListener{
-SensorManager sensorMgr;
-Sensor accelerometer;
-Boolean supported;
-    float[] gravity = new float[3];
+private SensorManager sensorMgr;
+private Sensor accelerometer;
+private Boolean supported;
+private float[] gravity = new float[3];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

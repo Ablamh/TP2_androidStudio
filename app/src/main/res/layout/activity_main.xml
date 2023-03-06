@@ -1,36 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:orientation="vertical">
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
 
         <Button
             android:id="@+id/exo1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Exercice1" />
+            android:text="@string/exo1" />
 
         <Button
             android:id="@+id/exo2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Exercice2" />
+            android:text="@string/exo2" />
+
         <Button
             android:id="@+id/exo3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Exercice3" />
+            android:text="@string/exo3" />
+        <Button
+            android:id="@+id/exo4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exo4" />
+
+        <Button
+            android:id="@+id/exo5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exo5" />
 
 
 
-    </LinearLayout>
+
+
+
 
 </LinearLayout>

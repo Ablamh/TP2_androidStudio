@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Tp2</string>
+    <string name="exo1">Exercice 1</string>
+    <string name="exo2">Exercice 2</string>
+    <string name="exo3">Exercice 3</string>
+    <string name="exo4">Exercice 4</string>
+    <string name="exo5">Exercice 5</string>
+
+    <string name="rep">  X: 0.00 Y: 0.00 Z: 0.00</string>
+
+
 </resources>
