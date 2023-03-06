@@ -15,7 +15,7 @@ import android.widget.Toast;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-Button bexo1,bexo2;
+Button bexo1,bexo2,bexo3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +39,16 @@ Button bexo1,bexo2;
             }
         });
 
+      bexo3=(Button)findViewById(R.id.exo3);
+        bexo3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it =new Intent(MainActivity.this,AccelerometreActivity.class);
+                startActivity(it);
+
+
+            }
+        });
 
     }
 }
