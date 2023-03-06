@@ -15,7 +15,7 @@ import android.widget.Toast;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-Button bexo1,bexo2,bexo3,bexo4,bexo5;
+Button bexo1,bexo2,bexo3,bexo4,bexo5,bexo6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +62,15 @@ Button bexo1,bexo2,bexo3,bexo4,bexo5;
             @Override
             public void onClick(View view) {
                 Intent it =new Intent(MainActivity.this,SecouerAppareilActivity.class);
+                startActivity(it);
+
+            }
+        });
+        bexo6=(Button)findViewById(R.id.exo6);
+        bexo6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it =new Intent(MainActivity.this,ProximiteActivity.class);
                 startActivity(it);
 
             }

@@ -5,6 +5,8 @@
     <string name="exo3">Exercice 3</string>
     <string name="exo4">Exercice 4</string>
     <string name="exo5">Exercice 5</string>
+    <string name="objet_proche"> L objet est proche</string>
+    <string name="objet_loin"> L objet est loin</string>
 
     <string name="rep">  X: 0.00 Y: 0.00 Z: 0.00</string>
 
